@@ -1,22 +1,24 @@
-<?php
-
 $GLOBALS
-// $GLOBALS is a superglobal variable, which is also an array that stores all the global scope variables and is used to access global variables from anywhere in the PHP program. 
+$GLOBALS is a superglobal variable, which is also an array that stores all the global scope variables and is used to access global variables from anywhere in the PHP program.
 
-// Example:
+Example:
 
-// $a= 10;
-// $b = 11;
 
-// function add() {
-//  $GLOBALS['z'] = $GLOBALS['a'] + $GLOBALS['b'];
-// }
 
-// add();
-// echo $z;
+<?php
+$x = 10;
+$y = 11;
 
-// Output:
+function add()
+{
+    $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
+}
 
-// 21
-
+add();
+echo $z;
 ?>
+
+
+Output:
+
+21
