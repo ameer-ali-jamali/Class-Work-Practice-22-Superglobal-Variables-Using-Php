@@ -17,6 +17,7 @@ echo $_SERVER['REMOTE_ADDR'];
 ?>
 
 
+
 The following table lists some of the important elements of $_SERVER
 
 

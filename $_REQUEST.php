@@ -7,6 +7,7 @@ Example:
 
 <body>
 
+
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <!--Server Info-->
         Name: <input type="text" name="fname">

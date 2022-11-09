@@ -7,6 +7,7 @@ htmlentities() Function: The htmlentities() function is an inbuilt function that
 
 Example:
 
+
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = htmlspecialchars($_REQUEST['fname']); //Collecting Value

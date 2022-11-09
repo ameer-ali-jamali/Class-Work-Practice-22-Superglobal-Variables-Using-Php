@@ -9,6 +9,7 @@ Example:
 $x = 10;
 $y = 11;
 
+
 function add()
 {
     $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];

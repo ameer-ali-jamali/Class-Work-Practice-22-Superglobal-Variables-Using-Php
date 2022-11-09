@@ -22,6 +22,7 @@ HTML FORM
 </html>
 
 
+
 name_get.php
 
 <html>
@@ -38,5 +39,5 @@ name_get.php
 
 Output:
 
-Welcome World!
-Your email address is alkkl@example.com
+Welcome junaid21!
+Your email address is junaid21@example.com
